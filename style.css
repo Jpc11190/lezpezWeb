@@ -140,4 +140,66 @@ footer p{
 
 }
 
+/* Members CSS */
+.header{
+    background-color: #CE49BF;
+    border-bottom: solid black 5px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: white;
+}
+.mastercontainer{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Oswald', sans-serif;
+    justify-content: space-evenly;
+    gap: 30px 50px;
+    position: relative;
+    top: 1in;
+    font-size: 125%;
+}
+.membercontainer{
+    border: solid white 10px;
+    padding: 15px;
+    text-align: center;
+    color: black;
+}
+.rectangle{
+    height: 300px;
+    width: 200px;
+    border:  #A63EC5 solid 5px;
+    background-color: black;
+}
+.rimg{
+    width: 200px;
+    height: 300px;
+}
+#nothing{
+    border-color: rgba(0, 0, 0, 0.0) ;
+    background: rgba(0, 0, 0, 0.0)
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+.wikipage{
+    font-family: 'Oswald', sans-serif;
+    padding: 0px;
+    margin: 10px;
+    font-size: 125%;
+}
+.wikisidemenu{
+    margin-left: 10px;
+    width: 300px;
+    border: darkblue dashed 2px;
+    text-align: center;
+    float: right;
+}
+.wikiarticle{
+    line-height: 1.75;
+}
+.bold{
+    font-weight: bold;
+}
+/* End of Members CSS */
 
