@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LezPez || Home</title>
+    <link rel = "stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header>
+        <span id = "openSym" class = "openSymbol" onclick="openMenu()">&#9776;</span>
+
+        <h1>Lez Pez</h1>
+
+
+        <div class = "menuContent" id = "menuCon">
+            <a onclick = "closeMenu()" class = "closeBtn">&#9747;</a>
+            <a href="#">Home</a>
+            <a href="#">History</a>
+            <a href="#">FAQ</a>
+            <a href="#">Social</a>
+            <a href="#">Merch</a>
+
+
+        </div>
+
+
+
+    </header>
+    <main>
+
+        <section class = "eventSection">
+
+            <h1>Events</h1>
+            <div class = "boxEvent event1">
+                <h1>The Return of Steven Proctor</h1>
+
+                <div class = "circleImg">
+
+                </div>
+
+                <div class = "timerCounter">
+                    <div class = "timeBox dayBox">
+                        <label>Days</label>
+                        <p id = "dSet">0</p>
+                    </div>
+                    <div class = "timeBox hourBox">
+                        <label>Hours</label>
+                        <p id = "hSet">0</p>
+                    </div>
+                    <div class = "timeBox minBox">
+                        <label>Minutes</label>
+                        <p id = "mSet">0</p>
+                    </div>
+                    <div class = "timeBox secBox">
+                        <lable>Seconds</lable>
+                        <p id = "sSet">0</p>
+                    </div>
+                </div>
+            </div>
+
+           
+
+        </section>
+
+        
+    </main>
+    <footer>
+        <p>©2017-2022 Lez Pez/Soap Clan</p>
+    </footer>
+    <script src="js.js"></script>
+</body>
+</html>
