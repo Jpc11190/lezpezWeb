@@ -10,7 +10,16 @@
 
 <body>
 <header class="header">
+    <span id = "openSym" class = "openSymbol" onclick="openMenu()">&#9776;</span>
     <h1>LezPez Members</h1>
+    <div class = "menuContent" id = "menuCon">
+        <a onclick = "closeMenu()" class = "closeBtn">&#9747;</a>
+        <a href="../home.html">Home</a>
+        <a href="#">History</a>
+        <a href="#">FAQ</a>
+        <a href="#">Social</a>
+        <a href="https://teespring.com/stay-warm-with-the-soap-clan?pid=227&cid=2661&sid=front">Merch</a>
+    </div>
 </header>
 
 <main>
@@ -32,8 +41,8 @@
             <div class="rectangle"><img class="rimg" src="../photos/connor.jpg"></div>
         </div>
         <div class="membercontainer">
-            <h2>Jesus Daniel-Perez</h2>
-            <div class="rectangle"><img class="rimg" src="../photos/jesus.jpg"></div>
+            <h2><a href="pages/jesus.html">Jesus Daniel-Perez</a></h2>
+            <div class="rectangle"><a href="pages/jesus.html"><img class="rimg" src="../photos/jesus.jpg"></a></div>
         </div>
         <div class="membercontainer">
             <h2>Joshua Patterson</h2>
@@ -61,6 +70,9 @@
         </div>
     </div>
 </main>
-
+<footer class="footer">
+    <p>©2017-2023 Lez Pez/Soap Clan</p>
+</footer>
+<script src="../js.js"></script>
 </body>
 </html>

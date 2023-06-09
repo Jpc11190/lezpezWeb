@@ -202,5 +202,10 @@ a:visited{
 .bold{
     font-weight: bold;
 }
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
 /* End of Members CSS */
 
