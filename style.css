@@ -57,7 +57,7 @@ header{
 
 
 body{
-    background: rgb(3, 5, 88);
+    background:  #F190B7;
 }
 
 
@@ -109,7 +109,7 @@ body{
     margin: 0 auto;
     background: rgb(255, 255, 255);
     border-radius: 100%;
-    background: url('image1.PNG');
+    background: url('photos/drew.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -181,7 +181,7 @@ footer p{
 }
 a:visited{
     text-decoration: none;
-    color: black;
+    color: darkorchid;
 }
 .wikipage{
     font-family: 'Oswald', sans-serif;
